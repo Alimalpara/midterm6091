@@ -14,13 +14,14 @@ main{
     border-color: aqua;
     text-align: center;
     padding-bottom: 10px;
-    height: 100vh;
 
 }
 
 h1{
-   text-align: center;
+    margin: 0 auto;
     border-style: solid;
+    width: 35%;
+    height: auto;
  
 }
 
