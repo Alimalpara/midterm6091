@@ -1,0 +1,170 @@
+main{
+    margin-left: 5%;
+    
+    align-items: center;
+    justify-content: center;
+    width: 90% ;
+    height: auto;
+}
+
+.maindiv{
+    
+    width: 0px auto;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+h1{
+    border-style: solid;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+   
+    
+}
+
+.images{
+    border-style: solid;
+    margin: 0 auto;
+    height: 450px;
+    width: 94vh;
+    padding-top: 10px;
+    padding-bottom: 2px;
+   
+   
+}
+.row1{
+    margin: 0 auto;
+    
+    height: 50%;
+    width: 95%;
+}
+
+.row2{
+    margin: 0 auto;
+   
+
+    height: 50%;
+    width: 95%;
+
+}
+.row1images{
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+   
+
+
+.r1images{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+/* Child Text Container */
+.row1images div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;  
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.row1images:hover{
+    cursor: pointer;
+}    
+
+.row1images:hover div{
+    width: 100px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;        
+}
+
+.button{
+   
+   
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    color: black;
+    border-style: solid;
+    border-radius: 20px;
+    font-size: medium;
+    
+    text-align: center;
+}
+
+.popup{
+    background-color: beige;
+    margin: 0 auto;
+    width :160px;
+    height:150px;
+    position: fixed;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .pborder{
+    margin: 0 auto;
+    border-style: solid;
+    width: 150px;
+    height: auto;
+
+    padding: 10px;
+
+  }
