@@ -18,15 +18,11 @@ main{
 }
 
 h1{
-    margin: 0 auto;
+   text-align: center;
     border-style: solid;
     width: 500px;
     height: auto;
-
-    
-
-   
-    
+ 
 }
 
 .images{
